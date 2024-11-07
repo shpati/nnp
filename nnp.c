@@ -37,9 +37,9 @@ const char* version = "0.1";
 int INPUT_NODES = 256;
 int HIDDEN_NODES = 16;
 int OUTPUT_NODES = 10;
-double LEARNING_RATE = 0.1;
-int MAX_EPOCHS = 10000;
-double ERROR_THRESHOLD = 0.0001;
+double LEARNING_RATE = 0.01;
+int MAX_EPOCHS = 20000;
+double ERROR_THRESHOLD = 0.00001;
 int MAX_SAMPLES = 10000;
 
 typedef struct {
